@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    physics_plus (0.0.2)
+    physics_plus (0.0.3)
 
 GEM
   remote: http://rubygems.org/

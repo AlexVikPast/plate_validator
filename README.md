@@ -30,8 +30,8 @@ require 'physics_plus' => true
 puts PhysicsPlus.list_fundamental_constants
 puts PhysicsPlus.list_planck_quantities
 
-PhysicsPlus.C => 299792458
-PhysicsPlus.Na => 6.02214076e+23
+PhysicsPlus::Const_C => 299792458
+PhysicsPlus.Const_Na => 6.02214076e+23
 ```
 
 

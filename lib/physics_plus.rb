@@ -5,4 +5,8 @@ require_relative 'physics_plus/main/constants'
 module PhysicsPlus
   # Main module
   extend Main::Constants
+  include Main::Constants
 end
+
+
+puts PhysicsPlus.list_fundamental_constants
