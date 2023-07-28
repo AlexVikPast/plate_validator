@@ -1,3 +1,3 @@
-lib/physics_plus.rb b7afd3fb170af2b8835b45cbe8d0357163e605d2
-lib/physics_plus/version.rb e4ceefe47e5cd948504d2e0d2409c6d291abb19e
-lib/physics_plus/main/constants.rb 82a939ab8c66b7fe7e06e95459e8879c3e8e3d29
+lib/physics_plus.rb d8ffaf310e0910b184d283a56bfcccfed33f685d
+lib/physics_plus/version.rb 875764a72691bc84ecab63adc2c0918e3de7e907
+lib/physics_plus/main/constants.rb 3b72f550abfad856ac57bf9d5243589865f95c1c
