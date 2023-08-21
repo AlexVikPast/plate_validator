@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors                = ['AlexVikPast']
   spec.email                  = 'steplerpav@gmail.com'
   spec.summary                = 'physics_plus'
-  spec.description            = 'physics_plus'
+  spec.description            = 'physics_plus - basic formulas in physics'
   spec.homepage               = 'https://github.com/AlexVikPast/physics_plus'
   spec.licenses               = ['MIT']
   spec.platform               = Gem::Platform::RUBY  

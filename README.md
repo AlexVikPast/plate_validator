@@ -3,14 +3,13 @@
 
 I will try every week to add new gem functionality.
 
-### features already implemented
-- Fundamental Constants
 
 ### plans to implement functions
 - Mechanics
 - Thermodynamics
 - Optics
 - Electrodynamics
+- and others
 
 ### Installation
 GEMFILE:
@@ -23,15 +22,31 @@ INSTALL:
 gem install physics_plus
 ```
 
-EXAMPLE (Fundamental Constants):
+EXAMPLE (List fundamental constants):
 ```
 require 'physics_plus' => true
 
-puts PhysicsPlus.list_fundamental_constants
-puts PhysicsPlus.list_planck_quantities
+puts PhysicsPlus::Constants.List_fundamental_constants
 
-PhysicsPlus::Const_C => 299792458
-PhysicsPlus.Const_Na => 6.02214076e+23
+Speed_light_vacuum => 299792458                           (Speed of light)
+Gravitational_constant => 6.674484e-11                    (Gravitational constant)
+Planck_constant => 6.62607015e-34                         (Constant Plank)
+Reduced_Planck_constant => 1.0545717999999998e-34         (Dirac constant)
+Elementary_charge => 1.6021766340000001e-19               (Elementary charge)
+Boltzmanns_constant => 1.380649e-23                       (Boltzmann's constant)
+
+to others
+
+puts PhysicsPlus::Constants.List_planck_quantities
+puts PhysicsPlus::Constants.List_different_systems_quantities
+puts PhysicsPlus::Constants.List_electromagnetic_constants
+
+
+PhysicsPlus::Constants::C => 299792458
+PhysicsPlus::Constants::Speed_light_vacuum => 299792458
+
+PhysicsPlus::Constants::G => 6.02214076e+23
+PhysicsPlus::Constants::Gravitational_constant => 6.02214076e+23
 ```
 
 
