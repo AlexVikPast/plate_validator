@@ -1,6 +1,6 @@
-# This module contains physical constants
+# This module optics
 module PhysicsPlus
-    # This module contains the solution of problems in optics
+    # This class optics formulas
     class Optics
       def self.absolute_refractive_index(speed)
         raise 'speed must not exceed the speed of light' if Constants::C < speed

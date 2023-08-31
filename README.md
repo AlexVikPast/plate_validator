@@ -41,12 +41,17 @@ puts PhysicsPlus::Constants.List_planck_quantities
 puts PhysicsPlus::Constants.List_different_systems_quantities
 puts PhysicsPlus::Constants.List_electromagnetic_constants
 
-
 PhysicsPlus::Constants::C => 299792458
 PhysicsPlus::Constants::Speed_light_vacuum => 299792458
 
 PhysicsPlus::Constants::G => 6.02214076e+23
 PhysicsPlus::Constants::Gravitational_constant => 6.02214076e+23
+
+PhysicsPlus::Optics.absolute_refractive_index(200_000_000) => 1.49896229
+PhysicsPlus::Optics.power_lens(2) => 0.5
+
+PhysicsPlus::ElementsTheoryRelativity.inertial_system_length(1.5, 200_000_000) => 1.1174144036800955
+PhysicsPlus::ElementsTheoryRelativity.inertial_system_time(60, 200_000_000) => 80.54308205048527
 ```
 
 
@@ -55,3 +60,4 @@ PhysicsPlus::Constants::Gravitational_constant => 6.02214076e+23
 MIT
 
 **Free Software, Hell Yeah!**
+
