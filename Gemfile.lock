@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    physics_plus (0.0.5)
+    physics_plus (0.0.7)
 
 GEM
   remote: http://rubygems.org/
@@ -33,4 +33,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   2.4.17
+   2.5.1

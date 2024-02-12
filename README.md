@@ -52,6 +52,8 @@ PhysicsPlus::Optics.power_lens(2) => 0.5
 
 PhysicsPlus::ElementsTheoryRelativity.inertial_system_length(1.5, 200_000_000) => 1.1174144036800955
 PhysicsPlus::ElementsTheoryRelativity.inertial_system_time(60, 200_000_000) => 80.54308205048527
+
+PhysicsPlus::Quantums.equivalence_of_mass_and_energy(0.0000000001) => 8987551.787368177
 ```
 
 

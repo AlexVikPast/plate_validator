@@ -19,4 +19,7 @@ RSpec.describe PhysicsPlus do
     expect(PhysicsPlus::ElementsTheoryRelativity.inertial_system_time(60, 200_000_000)).to eq(80.54308205048527)  
   end
 
+  it "Equivalence_of_mass_and_energy" do 
+    expect(PhysicsPlus::Quantums.equivalence_of_mass_and_energy(0.0000000001)).to eq(8987551.787368177)
+  end
 end

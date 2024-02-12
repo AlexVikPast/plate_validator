@@ -16,22 +16,22 @@ module PhysicsPlus
     end
 
     # @return [Integer]
-    Speed_light_vacuum = C = 299792458.freeze
+    Speed_light_vacuum = C = 299792458
     
     # @return [Float]
-    Gravitational_constant = G = (6.674484 * ( 10 ** (11 * -1.0 ) )).freeze
+    Gravitational_constant = G = (6.674484 * ( 10 ** (11 * -1.0 ) ))
 
     # @return [Float]
-    Planck_constant = (6.62607015 * ( 10 ** (34 * -1.0 ) )).freeze
+    Planck_constant = (6.62607015 * ( 10 ** (34 * -1.0 ) ))
 
     # @return [Float]
-    Reduced_Planck_constant = (1.0545718 * ( 10 ** (34 * -1.0 ) )).freeze
+    Reduced_Planck_constant = (1.0545718 * ( 10 ** (34 * -1.0 ) ))
 
     # @return [Float]
-    Elementary_charge = (1.602176634 * ( 10 ** (19 * -1.0 ) )).freeze
+    Elementary_charge = (1.602176634 * ( 10 ** (19 * -1.0 ) ))
 
     # @return [Float]
-    Boltzmanns_constant = (1.380649 * ( 10 ** (23 * -1.0 ) )).freeze
+    Boltzmanns_constant = (1.380649 * ( 10 ** (23 * -1.0 ) ))
 
 
     # @return [String] List of planck quantities
@@ -45,16 +45,16 @@ module PhysicsPlus
     end
 
     # @return [Float]
-    Planck_mass = (2.176434 * ( 10 ** (8 * -1.0 ) )).freeze
+    Planck_mass = (2.176434 * ( 10 ** (8 * -1.0 ) ))
 
     # @return [Float]
-    Planck_length = (1.616255 * ( 10 ** (35 * -1.0 ) )).freeze
+    Planck_length = (1.616255 * ( 10 ** (35 * -1.0 ) ))
 
     # @return [Float]
-    Planck_time = (5.391247 * ( 10 ** (44 * -1.0 ) )).freeze
+    Planck_time = (5.391247 * ( 10 ** (44 * -1.0 ) ))
 
     # @return [Float]
-    Planck_temperature = (1.416784 * ( 10 ** (32 * 1.0 ) )).freeze
+    Planck_temperature = (1.416784 * ( 10 ** (32 * 1.0 ) ))
 
     # @return [String] List Constants linking different systems of units and conversion factors
     def self.List_different_systems_quantities
@@ -70,25 +70,25 @@ module PhysicsPlus
     end
 
     # @return [Float]
-    Fine_structure_constant = (7.2973525693 * ( 10 ** (3 * -1.0 ) )).freeze
+    Fine_structure_constant = (7.2973525693 * ( 10 ** (3 * -1.0 ) ))
 
     # @return [Float]
-    Electrical_constant = (8.8541878128 * ( 10 ** (12 * -1.0 ) )).freeze
+    Electrical_constant = (8.8541878128 * ( 10 ** (12 * -1.0 ) ))
 
     # @return [Float]
-    Atomic_mass_unit = (1.66053906660 * ( 10 ** (27 * -1.0 ) )).freeze
+    Atomic_mass_unit = (1.66053906660 * ( 10 ** (27 * -1.0 ) ))
 
     # @return [Float]
-    Avogadros_constant = (6.02214076 * ( 10 ** (23 * 1.0 ) )).freeze
+    Avogadros_constant = (6.02214076 * ( 10 ** (23 * 1.0 ) ))
 
     # @return [Float]
-    Electron_volt = (1.602176634 * ( 10 ** (19 * -1.0 ) )).freeze
+    Electron_volt = (1.602176634 * ( 10 ** (19 * -1.0 ) ))
 
     # @return [Float]
-    Calorie = 4.1868.freeze
+    Calorie = 4.1868
 
     # @return [Integer]
-    Liter_atmosphere = (101325).freeze
+    Liter_atmosphere = (101325)
 
     # @return [String] List electromagnetic constants
     def self.List_electromagnetic_constants
@@ -101,13 +101,30 @@ module PhysicsPlus
     end
 
     # @return [Float]
-    Magnetic_constant = (1.25663706212 * ( 10 ** (6 * -1.0 ) )).freeze
+    Magnetic_constant = (1.25663706212 * ( 10 ** (6 * -1.0 ) ))
 
     # @return [Float]
     Vacuum_impedance = 376.73
 
     # @return [Float]
-    Coulombs_constant = (8.98755 * ( 10 ** (9 * 1.0 ) )).freeze
+    Coulombs_constant = (8.98755 * ( 10 ** (9 * 1.0 ) ))
 
+    # @return [String] Some other physical constants
+    def Some_other_physical_constants
+      constants = <<~CONSTANTS
+        Electron_mass => 9.1093837015e-31                         (Electron mass)
+        Proton_mass => 1.67262192369e-27                          (Proton mass)
+        Neutron_mass => 1.67492749804e-27                         (Neutron_mass)
+      CONSTANTS
+    end
+
+    # @return [Float]
+    Electron_mass = (9.1093837015 * ( 10 ** (31 * -1.0 ) ))
+
+    # @return [Float]
+    Proton_mass = (1.67262192369 * ( 10 ** (27 * -1.0 ) ))
+
+    # @return [Float]
+    Neutron_mass = (1.67492749804 * ( 10 ** (27 * -1.0 ) ))
   end
 end
