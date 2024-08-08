@@ -1,13 +1,13 @@
-require File.expand_path('lib/physics_plus/version', __dir__)
+require File.expand_path('lib/plate_validator/version', __dir__)
 
 Gem::Specification.new do |spec|
-  spec.name                   = 'physics_plus'
-  spec.version                = PhysicsPlus::VERSION
+  spec.name                   = 'plate_validator'
+  spec.version                = PlateValidator::VERSION
   spec.authors                = ['AlexVikPast']
   spec.email                  = 'steplerpav@gmail.com'
-  spec.summary                = 'physics_plus'
-  spec.description            = 'physics_plus - basic formulas in physics'
-  spec.homepage               = 'https://github.com/AlexVikPast/physics_plus'
+  spec.summary                = 'plate_validator'
+  spec.description            = 'plate_validator - basic validation of car license plates'
+  spec.homepage               = 'https://github.com/AlexVikPast/plate_validator'
   spec.licenses               = ['MIT']
   spec.platform               = Gem::Platform::RUBY  
   spec.required_ruby_version  = '>= 2.7.0'

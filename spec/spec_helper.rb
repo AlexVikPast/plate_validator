@@ -1,1 +1,1 @@
-require 'physics_plus'
+require 'plate_validator'
